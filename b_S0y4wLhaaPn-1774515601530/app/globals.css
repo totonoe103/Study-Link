@@ -4,78 +4,78 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --background: oklch(0.98 0.01 200);
-  --foreground: oklch(0.25 0.02 240);
+  --background: oklch(0.98 0.02 350);
+  --foreground: oklch(0.30 0.03 350);
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.25 0.02 240);
+  --card-foreground: oklch(0.30 0.03 350);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.25 0.02 240);
-  --primary: oklch(0.70 0.16 200);
+  --popover-foreground: oklch(0.30 0.03 350);
+  --primary: oklch(0.75 0.15 350);
   --primary-foreground: oklch(1 0 0);
-  --secondary: oklch(0.94 0.03 200);
-  --secondary-foreground: oklch(0.35 0.02 240);
-  --muted: oklch(0.96 0.02 200);
-  --muted-foreground: oklch(0.45 0.02 240);
-  --accent: oklch(0.80 0.12 200);
-  --accent-foreground: oklch(0.20 0.02 240);
+  --secondary: oklch(0.95 0.03 350);
+  --secondary-foreground: oklch(0.40 0.03 350);
+  --muted: oklch(0.96 0.02 350);
+  --muted-foreground: oklch(0.50 0.03 350);
+  --accent: oklch(0.85 0.12 320);
+  --accent-foreground: oklch(0.25 0.03 350);
   --destructive: oklch(0.60 0.20 25);
   --destructive-foreground: oklch(1 0 0);
-  --border: oklch(0.90 0.02 200);
-  --input: oklch(0.96 0.02 200);
-  --ring: oklch(0.70 0.16 200);
-  --chart-1: oklch(0.70 0.16 200);
-  --chart-2: oklch(0.60 0.14 200);
-  --chart-3: oklch(0.80 0.12 200);
-  --chart-4: oklch(0.75 0.10 150);
-  --chart-5: oklch(0.65 0.12 220);
-  --radius: 1rem;
+  --border: oklch(0.92 0.03 350);
+  --input: oklch(0.96 0.02 350);
+  --ring: oklch(0.75 0.15 350);
+  --chart-1: oklch(0.75 0.15 350);
+  --chart-2: oklch(0.80 0.12 320);
+  --chart-3: oklch(0.85 0.10 30);
+  --chart-4: oklch(0.78 0.12 280);
+  --chart-5: oklch(0.72 0.14 200);
+  --radius: 1.25rem;
   --sidebar: oklch(1 0 0);
-  --sidebar-foreground: oklch(0.25 0.02 240);
-  --sidebar-primary: oklch(0.70 0.16 200);
+  --sidebar-foreground: oklch(0.30 0.03 350);
+  --sidebar-primary: oklch(0.75 0.15 350);
   --sidebar-primary-foreground: oklch(1 0 0);
-  --sidebar-accent: oklch(0.94 0.03 200);
-  --sidebar-accent-foreground: oklch(0.25 0.02 240);
-  --sidebar-border: oklch(0.90 0.02 200);
-  --sidebar-ring: oklch(0.70 0.16 200);
+  --sidebar-accent: oklch(0.95 0.03 350);
+  --sidebar-accent-foreground: oklch(0.30 0.03 350);
+  --sidebar-border: oklch(0.92 0.03 350);
+  --sidebar-ring: oklch(0.75 0.15 350);
 }
 
 .dark {
-  --background: oklch(0.99 0 0);
-  --foreground: oklch(0.30 0.02 250);
+  --background: oklch(0.99 0.01 350);
+  --foreground: oklch(0.35 0.03 350);
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.30 0.02 250);
+  --card-foreground: oklch(0.35 0.03 350);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.30 0.02 250);
-  --primary: oklch(0.72 0.14 200);
+  --popover-foreground: oklch(0.35 0.03 350);
+  --primary: oklch(0.75 0.15 350);
   --primary-foreground: oklch(1 0 0);
-  --secondary: oklch(0.95 0.02 200);
-  --secondary-foreground: oklch(0.35 0.02 250);
-  --muted: oklch(0.96 0.01 200);
-  --muted-foreground: oklch(0.50 0.02 250);
-  --accent: oklch(0.75 0.15 45);
+  --secondary: oklch(0.96 0.02 350);
+  --secondary-foreground: oklch(0.40 0.03 350);
+  --muted: oklch(0.97 0.01 350);
+  --muted-foreground: oklch(0.55 0.03 350);
+  --accent: oklch(0.80 0.12 320);
   --accent-foreground: oklch(1 0 0);
   --destructive: oklch(0.60 0.20 25);
   --destructive-foreground: oklch(1 0 0);
-  --border: oklch(0.92 0.01 200);
-  --input: oklch(0.96 0.01 200);
-  --ring: oklch(0.72 0.14 200);
-  --chart-1: oklch(0.72 0.14 200);
-  --chart-2: oklch(0.75 0.15 45);
-  --chart-3: oklch(0.65 0.12 150);
-  --chart-4: oklch(0.78 0.12 80);
-  --chart-5: oklch(0.65 0.15 320);
-  --sidebar: oklch(0.72 0.14 200);
+  --border: oklch(0.93 0.02 350);
+  --input: oklch(0.97 0.01 350);
+  --ring: oklch(0.75 0.15 350);
+  --chart-1: oklch(0.75 0.15 350);
+  --chart-2: oklch(0.80 0.12 320);
+  --chart-3: oklch(0.85 0.10 30);
+  --chart-4: oklch(0.78 0.12 280);
+  --chart-5: oklch(0.72 0.14 200);
+  --sidebar: oklch(0.75 0.15 350);
   --sidebar-foreground: oklch(1 0 0);
   --sidebar-primary: oklch(1 0 0);
-  --sidebar-primary-foreground: oklch(0.72 0.14 200);
-  --sidebar-accent: oklch(0.65 0.12 200);
+  --sidebar-primary-foreground: oklch(0.75 0.15 350);
+  --sidebar-accent: oklch(0.68 0.12 350);
   --sidebar-accent-foreground: oklch(1 0 0);
-  --sidebar-border: oklch(0.65 0.12 200);
+  --sidebar-border: oklch(0.68 0.12 350);
   --sidebar-ring: oklch(1 0 0);
 }
 
 @theme inline {
-  --font-sans: 'Geist', 'Geist Fallback';
+  --font-sans: var(--font-zen-maru), 'Hiragino Maru Gothic ProN', 'Geist', sans-serif;
   --font-mono: 'Geist Mono', 'Geist Mono Fallback';
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -122,4 +122,85 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* Kawaii animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+@keyframes sparkle {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(1.1); }
+}
+
+@keyframes bounce-gentle {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+}
+
+@keyframes wiggle {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(-3deg); }
+  75% { transform: rotate(3deg); }
+}
+
+@keyframes pulse-soft {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.85; }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+.animate-sparkle {
+  animation: sparkle 2s ease-in-out infinite;
+}
+
+.animate-bounce-gentle {
+  animation: bounce-gentle 2s ease-in-out infinite;
+}
+
+.animate-wiggle {
+  animation: wiggle 1s ease-in-out infinite;
+}
+
+.animate-pulse-soft {
+  animation: pulse-soft 2s ease-in-out infinite;
+}
+
+/* Kawaii card hover effects */
+.kawaii-card {
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.kawaii-card:hover {
+  transform: translateY(-4px) scale(1.01);
+  box-shadow: 0 12px 32px -8px rgba(244, 114, 182, 0.25);
+}
+
+/* Kawaii button effects */
+.kawaii-button {
+  transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.kawaii-button:hover {
+  transform: scale(1.05);
+}
+
+.kawaii-button:active {
+  transform: scale(0.98);
+}
+
+/* Soft shadows */
+.shadow-kawaii {
+  box-shadow: 0 4px 20px -4px rgba(244, 114, 182, 0.2), 
+              0 2px 8px -2px rgba(244, 114, 182, 0.1);
+}
+
+.shadow-kawaii-lg {
+  box-shadow: 0 8px 32px -8px rgba(244, 114, 182, 0.3), 
+              0 4px 16px -4px rgba(244, 114, 182, 0.15);
 }

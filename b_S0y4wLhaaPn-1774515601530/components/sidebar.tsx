@@ -50,6 +50,8 @@ export function Sidebar() {
         return { bg: "bg-rose-500", hover: "hover:bg-rose-600", text: "text-rose-500" }
       case "amber":
         return { bg: "bg-amber-500", hover: "hover:bg-amber-600", text: "text-amber-500" }
+      case "kawaii":
+        return { bg: "bg-gradient-to-br from-pink-300 to-rose-400", hover: "hover:from-pink-400 hover:to-rose-500", text: "text-pink-500" }
       default:
         return { bg: "bg-sky-500", hover: "hover:bg-sky-600", text: "text-sky-500" }
     }

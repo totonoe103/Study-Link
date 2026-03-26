@@ -3,7 +3,7 @@
 import { createContext, useContext, useState, ReactNode } from "react"
 
 export type Language = "en" | "ja" | "zh" | "ko"
-export type ColorTheme = "sky" | "violet" | "emerald" | "rose" | "amber"
+export type ColorTheme = "sky" | "violet" | "emerald" | "rose" | "amber" | "kawaii"
 export type ExamCategory = "japanese" | "alevel" | "ib" | "sat" | "ap"
 export type MentorPersonality = "gentle" | "strict" | "logical" | "cheerful"
 
@@ -21,11 +21,11 @@ interface SettingsContextType {
 }
 
 const defaultSettings: Settings = {
-  language: "en",
-  colorTheme: "sky",
-  examCategory: "alevel",
-  mentorPersonality: "gentle",
-  mentorName: "Sophia",
+  language: "ja",
+  colorTheme: "kawaii",
+  examCategory: "japanese",
+  mentorPersonality: "cheerful",
+  mentorName: "Mika",
 }
 
 const SettingsContext = createContext<SettingsContextType | undefined>(undefined)
@@ -83,6 +83,12 @@ export const colorThemes: Record<ColorTheme, { primary: string; gradient: string
     gradient: "from-amber-400 to-orange-500",
     light: "from-amber-50 via-white to-orange-50",
     text: "text-amber-500"
+  },
+  kawaii: {
+    primary: "pink",
+    gradient: "from-pink-300 via-rose-300 to-pink-400",
+    light: "from-pink-50 via-rose-50 to-purple-50",
+    text: "text-pink-400"
   },
 }
 

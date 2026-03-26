@@ -1,11 +1,14 @@
 import type { Metadata } from 'next'
-import { Geist, Geist_Mono } from 'next/font/google'
+import { Zen_Maru_Gothic } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import { SettingsProvider } from '@/lib/settings-context'
 import './globals.css'
 
-const _geist = Geist({ subsets: ["latin"] });
-const _geistMono = Geist_Mono({ subsets: ["latin"] });
+const zenMaruGothic = Zen_Maru_Gothic({ 
+  weight: ['300', '400', '500', '700'],
+  subsets: ["latin"],
+  variable: '--font-zen-maru',
+});
 
 export const metadata: Metadata = {
   title: '逆算AI - 合格への最短ルート',
@@ -36,7 +39,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="ja">
+    <html lang="ja" className={zenMaruGothic.variable}>
       <body className="font-sans antialiased">
         <SettingsProvider>
           {children}
