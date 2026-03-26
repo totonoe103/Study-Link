@@ -914,7 +914,7 @@ export default function SchedulePlanner({
                         1日あたり（平均・総量）
                       </div>
                       <div className="text-sm font-bold text-slate-900">
-                        {selectedItems.length === 0 ? "-" : Math.ceil(averagePerDay)}
+                        {selectedItems.length === 0 ? "-" : Math.ceil(averagePerDay ?? 0)}
                         <span className="ml-1 text-xs font-semibold text-slate-600">
                           （単位は科目/教材ごと）
                         </span>
